@@ -5,8 +5,11 @@ h2 {
 }
 
 body {
-    background-color: #f0f0d8;
+    background-image: url("images/sable.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .container {
     background-color: #5cc2e0;
     display: flex;
@@ -17,7 +20,6 @@ body {
 }
 
 .nav ul {
-    background-color: #5cc2e0;
     margin: auto;
     background: white;
     list-style: none;
@@ -32,7 +34,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: #444d56;
-    font-size: 1.3em;
+    font-size: 1.8em;
 }
 
 .nav .menu {
@@ -43,6 +45,9 @@ body {
     font-family: Apple, Chancery, cursive;
 }
 
+.palais {
+    width: auto;
+}
 .welcome {
     font-family: Apple, Chancery, cursive;
     text-align: center;
