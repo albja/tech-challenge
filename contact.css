@@ -1,4 +1,12 @@
 label {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: bold;
+}
+
+.bannière2 {
+    text-shadow: 1px 1px 1px lightgray;
+}
+
+form {
+    text-align: center;
 }
