@@ -13,95 +13,97 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img src="/images/helmet.png" alt="logo" class="logo" />
+                    <img src="/images/logo2.png" alt="logo" class="logo" />
                 </div>
                 <nav class="nav">
                     <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="roya-family.html">The Royal Family</a></li>
+                        <li><a href="index.html">Bienvenue 🏰</a></li>
                         <li>
-                            <a href="assets.html">The Kingdom's Royal Assets</a>
+                            <a href="roya-family.html">👨‍👩‍👧‍👦 La Famille</a>
                         </li>
-                        <li><a href="contact.html">Contact us</a></li>
+                        <li>
+                            <a href="assets.html">Nos Trésors ! 💰</a>
+                        </li>
+                        <li><a href="contact.html">Contact 💻</a></li>
                     </ul>
                 </nav>
             </div>
-            <h1>Ecrivez nous ! </h1>
+        </header>
+        <h1>Ecrivez nous !</h1>
 
-            <form method="post" action="traitement.php" class="form"></form>
-        
-            <img src="img/.jpg" alt="" class="" />
-        
-            <label for="nom">Nom d'usage</label>
-            <input
-              type="text"
-              name="nom"
-              id="nom"
-              placeholder="ex: Jason"
-              size="50"
-              maxlength="18"
-              required="required"
-            />
-            <br />
-            <br />
-            <label for="firstname">Prénom/Pseudo</label>
-            <input
-              type="text"
-              name="firstname"
-              id="firstname"
-              placeholder="ex: de la Batte"
-              size="50"
-              maxlength="18"
-              required="required"
-            />
-            <br />
-            <br />
-            <label for="email">Email</label>
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="ex: john.doe@sncf.fr"
-              size="50"
-              maxlength="18"
-              required="required"
-            />
-            <br />
-            <br />
+        <form method="post" action="traitement.php" class="form"></form>
 
-            <label for="pays">Votre pays d'origine ?</label><br />
-            <select name="pays" id="pays">
-              <option value="France">France</option>
-              <option value="Bretagne">Bretagne</option>
-              <option value="Arménie">Arménie</option>
-              <option value="Espagne">Espagne</option>
-              <option value="Maroc">Maroc</option>
-              <option value="Angleterre">Angleterre</option>
-              <option value="Italie">Italie</option>
-              <option value="pasindiquée">Aucun de ces choix</option>
-            </select>
-            <br />
-            <br />
-            <label for="message">Message</label>
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Blablabla"
-              required="required"
-            ></textarea>
-        
-            <br />
-            <br />
-            <input type="submit" value="Submit" onClick="Message()" />
-            <!-- ici le script pour la fenêtre pop un quand utilisateur appuie sur submit-->
-            <script>
-              function Message() {
+        <img src="img/.jpg" alt="" class="" />
+
+        <label for="nom">Nom d'usage</label>
+        <input
+            type="text"
+            name="nom"
+            id="nom"
+            placeholder="ex: De la Batte"
+            size="50"
+            maxlength="18"
+            required="required"
+        />
+        <br />
+        <br />
+        <label for="firstname">Prénom/Pseudo</label>
+        <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="ex: Pierre"
+            size="50"
+            maxlength="18"
+            required="required"
+        />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="ex: john.doe@sncf.fr"
+            size="50"
+            maxlength="18"
+            required="required"
+        />
+        <br />
+        <br />
+
+        <label for="pays">Votre pays d'origine ?</label><br />
+        <select name="pays" id="pays">
+            <option value="France">France</option>
+            <option value="Bretagne">Bretagne</option>
+            <option value="Arménie">Arménie</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Maroc">Maroc</option>
+            <option value="Angleterre">Angleterre</option>
+            <option value="Italie">Italie</option>
+            <option value="pasindiquée">Aucun de ces choix</option>
+        </select>
+        <br />
+        <br />
+        <label for="message">Message</label>
+        <textarea
+            name="message"
+            id="message"
+            placeholder="ex: Pas content pas content"
+            required="required"
+        ></textarea>
+
+        <br />
+        <br />
+        <input type="submit" value="Submit" onClick="Message()" />
+        <!-- ici le script pour la fenêtre pop un quand utilisateur appuie sur submit-->
+        <script>
+            function Message() {
                 let msg =
-                  "Thanks for your message. You will receive an answer in a few days. ";
+                    "Merci de nous avoir contacté, vous recevrez une réponse sou 48h ";
                 console.log(msg);
                 alert(msg);
-              }
-            </script>
-          </body>
-        </html>
-        
+            }
+        </script>
+    </body>
+</html>

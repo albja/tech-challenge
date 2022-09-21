@@ -1,6 +1,7 @@
-.portaits {
+.portraits {
+    padding-top: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 figcaption {
