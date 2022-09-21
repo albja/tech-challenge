@@ -1,0 +1,14 @@
+
+.portraits {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  figcaption {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.8em;
+  }
+  
