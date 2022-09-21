@@ -1,13 +1,28 @@
-p,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 h1,
 h2 {
     font-family: Apple, Chancery, cursive;
+    text-align: center;
+    padding: 40px;
 }
-
+p {
+    font-size: 1.5em;
+}
 body {
     background-image: url("images/sable.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bannière {
+    background-image: url("images/palace.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
 
 .container {
@@ -51,7 +66,7 @@ body {
 .welcome {
     font-family: Apple, Chancery, cursive;
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
     font-size: 1.7em;
+    padding: 16px;
 }
