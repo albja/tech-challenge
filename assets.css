@@ -1,0 +1,35 @@
+caption {
+    font-family: Apple Chancery, cursive;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 40px;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #d7d7d7;
+}
+table {
+    width: 80%;
+    margin: auto;
+    text-size-adjust: auto;
+    font-family: Apple Chancery, cursive;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    text-align: center;
+    border: 3px solid black;
+}
+
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+footer {
+    padding: 40px;
+    font-size: 1.3em;
+}

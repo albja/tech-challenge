@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>index.html</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="contact.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
@@ -25,6 +26,82 @@
                     </ul>
                 </nav>
             </div>
-        </header>
-    </body>
-</html>
+            <h1>Ecrivez nous ! </h1>
+
+            <form method="post" action="traitement.php" class="form"></form>
+        
+            <img src="img/.jpg" alt="" class="" />
+        
+            <label for="nom">Nom d'usage</label>
+            <input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="ex: Jason"
+              size="50"
+              maxlength="18"
+              required="required"
+            />
+            <br />
+            <br />
+            <label for="firstname">Prénom/Pseudo</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="ex: de la Batte"
+              size="50"
+              maxlength="18"
+              required="required"
+            />
+            <br />
+            <br />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="ex: john.doe@sncf.fr"
+              size="50"
+              maxlength="18"
+              required="required"
+            />
+            <br />
+            <br />
+
+            <label for="pays">Votre pays d'origine ?</label><br />
+            <select name="pays" id="pays">
+              <option value="France">France</option>
+              <option value="Bretagne">Bretagne</option>
+              <option value="Arménie">Arménie</option>
+              <option value="Espagne">Espagne</option>
+              <option value="Maroc">Maroc</option>
+              <option value="Angleterre">Angleterre</option>
+              <option value="Italie">Italie</option>
+              <option value="pasindiquée">Aucun de ces choix</option>
+            </select>
+            <br />
+            <br />
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Blablabla"
+              required="required"
+            ></textarea>
+        
+            <br />
+            <br />
+            <input type="submit" value="Submit" onClick="Message()" />
+            <!-- ici le script pour la fenêtre pop un quand utilisateur appuie sur submit-->
+            <script>
+              function Message() {
+                let msg =
+                  "Thanks for your message. You will receive an answer in a few days. ";
+                console.log(msg);
+                alert(msg);
+              }
+            </script>
+          </body>
+        </html>
+        

@@ -1,10 +1,8 @@
 p,
 h1,
 h2 {
-  font-family: roboto, Lato, sans serif;
+    font-family: Apple Chancery, cursive;
 }
-
-
 
 .container {
     display: flex;
@@ -12,49 +10,40 @@ h2 {
     border-collapse: collapse;
     margin: auto;
     border: 3px solid black;
-    
-;
-  }
+}
 
-  
-    .nav ul {
-        margin: auto;
-        background: white;
-        list-style: none;
-        
-      }
-  
+.nav ul {
+    margin: auto;
+    background: white;
+    list-style: none;
+}
 
-  .nav a 
-  {
+.nav a {
     margin-top: 0px;
-  padding: 50px;
-  display: block;
-  text-align: justify;
-  text-decoration: none;
-  font-weight: bold;
-  color: #444d56;
-  font-size: 1.4em;
-  
+    padding: 50px;
+    display: block;
 
-  }
+    text-decoration: none;
+    font-weight: bold;
+    color: #444d56;
+    font-size: 1.3em;
+}
 
-  .nav .menu {
+.nav .menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-  }
+    font-family: Apple, Chancery, cursive;
+}
 
-  .logo
-  {
-    display: flex ;
+.logo {
+    display: flex;
     flex-direction: row;
-  }
-  .welcome {
-    font-family: PlayfairDisplay, Oswlad, roboto, sans serif;
+}
+.welcome {
+    font-family: Apple, Chancery, cursive;
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.7em;
-
-  }
+}

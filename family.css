@@ -1,14 +1,16 @@
-
-.portraits {
+.portaits {
     display: flex;
-    justify-content: space-around;
-  }
-  
-  figcaption {
+    justify-content: space-between;
+}
+
+figcaption {
     padding-top: 30px;
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     font-size: 1.8em;
-  }
-  
+}
+
+* {
+    font-family: "Roboto" "Courier New", Courier, monospace;
+}
