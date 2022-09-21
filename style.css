@@ -1,0 +1,52 @@
+p,
+h1,
+h2 {
+  font-family: roboto, Lato, sans serif;
+}
+
+
+
+.container {
+    display: flex;
+    flex-basis: auto;
+    border-collapse: collapse;
+    margin: auto;
+    border: 3px solid black;
+    
+;
+  }
+
+  
+    .nav ul {
+        margin: auto;
+        background: white;
+        list-style: none;
+        
+      }
+  
+
+  .nav a 
+  {
+    margin-top: 0px;
+  padding: 50px;
+  display: block;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: bold;
+  color: #444d56;
+  font-size: 1.4em;
+  
+
+  }
+
+  .nav .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .logo
+  {
+    display: flex ;
+    flex-direction: row;
+  }
