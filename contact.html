@@ -48,7 +48,7 @@
             />
             <br />
             <br />
-            <label for="firstname">Prénom/Pseudo</label>
+            <label for="firstname">Prénom</label>
             <input
                 type="text"
                 name="firstname"
@@ -88,6 +88,7 @@
             <br />
             <label for="message">Message</label>
             <textarea
+                class="message"
                 name="message"
                 id="message"
                 placeholder="ex: Pas content pas content"
@@ -97,7 +98,12 @@
 
             <br />
             <br />
-            <input type="submit" value="Submit" onClick="Message()" />
+            <input
+                type="submit"
+                value="Submit"
+                onClick="Message()"
+                class="submit"
+            />
             <!-- ici le script pour la fenêtre pop un quand utilisateur appuie sur submit-->
             <script>
                 function Message() {
