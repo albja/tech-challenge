@@ -1,9 +1,23 @@
 caption {
-    font-family: Apple Chancery, cursive;
+    font-family: "Apple Chancery, cursive";
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.8em;
     padding: 40px;
+    text-shadow: #fffec8 0 -1px 0, #ff3a00 1px 1px 0, #c01c01 2px 2px 0,
+        #bf1b01 3px 3px 0, #e90b20 4px 4px 0, #850103 5px 5px 0,
+        #333 5px 5px 10px;
+    color: #ffd100;
+}
+
+a:hover {
+    text-decoration: none;
+    color: Dodgerblue;
+}
+
+a:active {
+    color: crimson;
+    text-decoration: none;
 }
 
 table tbody tr:nth-child(odd) {
@@ -27,6 +41,10 @@ td {
     border-collapse: collapse;
     text-align: center;
     text-size-adjust: auto;
+}
+
+.video {
+    font-weight: bold;
 }
 
 footer {

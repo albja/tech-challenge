@@ -7,24 +7,36 @@
 
 h1,
 h2 {
-    font-family: Apple, Chancery, cursive;
+    font-family: "Roboto", Apple, Chancery, cursive;
     text-align: center;
     padding: 40px;
 }
-.pavé {
-    font-size: 1.5em;
-    text-shadow: #145ba7 5rem;
+.titrepave {
+    margin-top: 25%;
+    text-shadow: #ffc642 0 -1px 0, #dea623 1px 1px 0, #002d91 2px 2px 0,
+        #005386 4px 4px 0, #004874 5px 5px 0, #333 5px 5px 10px;
+    color: #91690c;
+}
+.pave {
+    font-size: 1.6em;
 }
 body {
     background-image: url("images/sable.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bannière {
+.banniere {
     background-image: url("images/palace.jpg");
     background-position: center;
     background-size: cover;
     height: 500px;
+}
+.titrebanniere {
+    margin-top: -450px;
+    text-shadow: #bbe5ff 0 -1px 0, #0098f8 1px 1px 0, #018de6 2px 2px 0,
+        #006fb5 3px 3px 0, #005386 4px 4px 0, #004874 5px 5px 0,
+        #333 5px 5px 10px;
+    color: #26abff;
 }
 
 .container {
@@ -59,7 +71,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-family: Apple, Chancery, cursive;
+    font-family: "Apple, Chancery, cursive";
 }
 
 a:hover {
@@ -87,4 +99,5 @@ a:active {
     margin-top: 40px;
     margin-right: 20px;
     text-align: right;
+    font-size: 1.4em;
 }
