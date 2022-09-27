@@ -1,0 +1,25 @@
+@media screen and (max-width: 875px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    .logo {
+        display: none;
+    }
+    .container {
+        flex-basis: auto;
+    }
+    .banniere {
+        display: none;
+    }
+    .titrebanniere {
+        display: none;
+    }
+
+    .navfooter {
+        display: inline;
+        margin: 7%;
+    }
+}
