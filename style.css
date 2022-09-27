@@ -4,10 +4,15 @@
     padding: 0;
     text-decoration: none;
 }
-#burgermenu {
+.navmobile {
     display: none;
 }
-
+.menumobile {
+    display: none;
+}
+.titremobile {
+    display: none;
+}
 h1,
 h2 {
     font-family: "Roboto", Apple, Chancery, cursive;

@@ -1,25 +1,37 @@
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 600px) {
     * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
         text-decoration: none;
     }
-    .logo {
+    .container {
         display: none;
     }
-    .container {
-        flex-basis: auto;
+    .navmobile {
+        position: relative;
+        background: #4747;
+    }
+    .menumobile {
+        position: relative;
+    }
+    .titremobile {
+        font-family: "Roboto", Apple, Chancery, cursive;
+        text-align: center;
     }
     .banniere {
-        display: none;
+        display: flex;
     }
     .titrebanniere {
-        display: none;
+        display: flex;
     }
 
     .navfooter {
         display: inline;
         margin: 7%;
+    }
+    table {
+        width: 100%;
+        font-size: 1rem;
     }
 }
